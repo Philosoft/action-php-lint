@@ -29,4 +29,8 @@ for file in $(find ${TARGET_DIR} -type f -name "*.php" ! -path "./vendor/*"); do
   fi
 done
 
+if [ $EXIT_CODE = 0 ]; then
+    echo ":: No syntax errors detected"
+fi
+
 exit "${EXIT_CODE}"
