@@ -1,6 +1,6 @@
-FROM php:7.3-cli-alpine
+FROM php:5.6-cli-alpine
 
-LABEL version="7.3"
+LABEL version="5.6"
 LABEL repository="https://github.com/Philosoft/action-php-lint"
 LABEL homepage="https://github.com/Philosoft/action-php-lint"
 LABEL maintainer="Aleksandr Frolov <thephilosoft@gmail.com>"
